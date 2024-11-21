@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+            .container1{
+                background-color: yellow;
+                border:8px solid black;
+                padding:10px;
+                margin:4px;
+                display:flex;
+                flex-direction:row;
+                width:600px;
+                       }
+            #Boxright{
+            background-color:blue;
+            height:200px;
+            width:200px;
+            padding:2px;
+            margin:10px;
+            border:4px solid black;
+            background-color:crimson;
+        }
+            
+            #Boxleft{
+            height:200px;
+            width:200px;
+            padding:2px;
+            margin:10px;
+            background-color:rgb(128, 225, 17);
+            border:4px solid black;
+        } 
+       #image1{
+           float:center;
+           height:200px;
+           width:200px;
+       }
+        p{
+            background-color:rgb(14, 182, 224);
+            border: rgb(185, 10, 144);
+        }
+        @media(max-width:640px){
+            .container1{
+                flex-direction:column;
+            }
+        }
+              
+   
+     </style>
+</head>
+<body>
+    <div class="container1">
+        <div id="Boxright">Box1
+            <p>Text1</p>
+            <p>Text2</p>
+        </div>
+        <div id="Boxleft">
+             <img src="BhagatSingh.png" alt="BharatSingh" id="image1">
+        </div>  
+    </div>
+</body>
+</html>
